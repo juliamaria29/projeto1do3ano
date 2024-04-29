@@ -19,7 +19,6 @@ const tempoObjetivo1 = new Date("2030-04-24T23:59:59");
 const tempoObjetivo2 = new Date("2027-04-24T23:59:59");
 const tempoObjetivo3 = new Date("2032-04-24T23:59:59");
 const tempoObjetivo4 = new Date("2025-04-24T23:59:59");
-
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
 
