@@ -40,6 +40,15 @@ function calculaTempo(tempoObjetivo) {
         return [0,0,0,0];
     }
 }
+segundos %= 60;
+    minutos %= 60;
+    horas %= 24;
+    if (tempoFinal > 0){
+        return [dias,horas,minutos,segundos];
+    } else {
+        return [0,0,0,0];
+    }
+}
 
 function atualizaCronometro(){
     document.getElementById("dias0").textContent = calculaTempo(tempos[0])[0];
