@@ -19,6 +19,7 @@ const tempoObjetivo1 = new Date("2030-04-24T23:59:59");
 const tempoObjetivo2 = new Date("2027-04-24T23:59:59");
 const tempoObjetivo3 = new Date("2032-04-24T23:59:59");
 const tempoObjetivo4 = new Date("2025-04-24T23:59:59");
+
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
 
@@ -42,9 +43,9 @@ function calculaTempo(tempoObjetivo) {
 
 function atualizaCronometro(){
     document.getElementById("dias0").textContent = calculaTempo(tempos[0])[0];
-    document.getElementById("horas0").textContent = calculaTempo(tempos[0])[1];
-    document.getElementById("min0").textContent = calculaTempo(tempos[0])[2];
-    document.getElementById("seg0").textContent = calculaTempo(tempos[0])[3];
+    document.getElementById("horas0").textContent = calculaTempo(tempos[0])[0];
+    document.getElementById("min0").textContent = calculaTempo(tempos[0])[0];
+    document.getElementById("seg0").textContent = calculaTempo(tempos[0])[0];
 
     for (let i=0; i<contadores.length;i++){
        // contadores[i].textContent = calculaTempo(tempos[i]);   
