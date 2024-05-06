@@ -57,13 +57,3 @@ function comecaCronometro(){
 }
 
 comecaCronometro();
-for (let i = 0; i < contadores.length; i++) {
-    contadores[i].innerHTML = calculaTempo(tempos[i]);
-  }
-}
-
-function comecaCronometro() {
-  atualizaCronometro();
-  setInterval(atualizaCronometro, 1000);
-}
-comecaCronometro();
